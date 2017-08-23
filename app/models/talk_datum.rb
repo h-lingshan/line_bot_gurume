@@ -1,0 +1,2 @@
+class TalkDatum < ApplicationRecord
+end

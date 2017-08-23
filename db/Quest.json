@@ -1,0 +1,72 @@
+[{
+    "id": 1,
+    "label": "お昼を探してる？",
+    "to_web": null,
+    "next_type": null,
+    "parent_id": null,
+    "children": [{
+            "id": 2,
+            "label": "はい",
+            "to_web": null,
+            "next_type": null,
+            "parent_id": "1",
+            "children": [{
+                "id": 9,
+                "label": "場所を教えて",
+                "to_web": null,
+                "next_type": "search",
+                "parent_id": "2",
+                "children": [{
+                    "id": 4,
+                    "label": "予算で検索する",
+                    "to_web": null,
+                    "next_type": null,
+                    "parent_id": "4",
+                    "children": [{
+                            "id": 5,
+                            "label": "お昼さんに任せる",
+                            "to_web": null,
+                            "next_type": "search",
+                            "parent_id": "4"
+                        },
+                        {
+                            "id": 4,
+                            "label": "手頃500円",
+                            "to_web": null,
+                            "next_type": "search",
+                            "parent_id": "4"
+                        },
+                        {
+                            "id": 6,
+                            "label": "1000円以内",
+                            "to_web": "",
+                            "next_type": "search",
+                            "parent_id": "4"
+                        },
+                        {
+                            "id": 7,
+                            "label": "1500円以内",
+                            "to_web": "",
+                            "next_type": "search",
+                            "parent_id": "4"
+                        },
+                        {
+                            "id": 8,
+                            "label": "2000円以内",
+                            "to_web": "",
+                            "next_type": "search",
+                            "parent_id": "4"
+                        }
+                    ]
+                }]
+            }]
+        },
+        {
+            "id": 3,
+            "label": "いいえ",
+            "to_web": "じゃあ、また今度ね",
+            "next_type": null,
+            "parent_id": "1"
+        }
+    ]
+}]
